@@ -26,16 +26,18 @@
   };
 ```
 
-### Background :computer:
+### Background :man_technologist: :mag:
 
-### Tech Stack
+#### Tech Stack
 
-> - Frontend: React.js, Angular & AngularJS :rocket:
-> - Styling: CSS, SCSS :crystal_ball:
+> - Frontend: React.js, Angular :rocket:
+> - Styling Languages: CSS, SCSS :crystal_ball: :sewing_needle:
 > - Backend: .NET Core & .NET Framework :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
+> - Development Platform: Windows :computer:
+> - Other: Docker :whale:, Node.js :leaves:
 
-#### Education
+#### Education :open_book:
 
 ```cs
  var tertiaryEducation = new TertiaryEducation {
