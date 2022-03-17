@@ -1,4 +1,4 @@
-# Dieter Kyle Lötz :boom:
+# Dieter Lötz :boom:
 
 <div align="center">
   <img src="./assets/signals.gif" align="centre" width="50%" height="50%"/>
