@@ -32,7 +32,7 @@
 
 > - Frontend: React.js, Angular & AngularJS :rocket:
 > - Styling: CSS, SCSS :crystal_ball:
-> - Backend: .NET Framework & .NET Core :globe_with_meridians:
+> - Backend: .NET Core & .NET Framework :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
 
 #### Education
