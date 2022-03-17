@@ -38,7 +38,7 @@
 #### Education
 
 ```cs
- var tertiaryEducation = new TeriaryEducation {
+ var tertiaryEducation = new TertiaryEducation {
     Qualifications = new List<Qualification>{
       new Qualification {
         Title = "National Diploma: Electrical Engineering",
@@ -48,7 +48,7 @@
     }
   };
   
-public class TeriaryEducation {
+public class TertiaryEducation {
 	public IList<Qualification> Qualifications {get; set;}
 }
 
