@@ -23,4 +23,6 @@
 ```
 ### Background :computer:
 
-![Signals](./assets/signals.gif)
+
+<img src="./assets/signals.gif" width="50%" height="50%" />
+![Signals]'./assets/signals.gif)
