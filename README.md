@@ -43,7 +43,8 @@
       new Qualification {
         Title = "National Diploma: Electrical Engineering",
         Institution = "Cape Peninsula University of Technology",
-        IsCompleted = true
+        IsCompleted = true,
+	YearCompleted = 2020
       },
     }
   };
