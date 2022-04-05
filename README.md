@@ -35,30 +35,30 @@
 > - Backend: .NET Core & .NET Framework :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
 > - Development Platform: Windows :computer:
-> - Other: Docker :whale:, Node.js :leaves:
+> - Other: Docker :whale:
 
 #### Education :open_book:
 
 ```cs
  var tertiaryEducation = new TertiaryEducation {
-    Qualifications = new List<Qualification>{
-      new Qualification {
-        Title = "National Diploma: Electrical Engineering",
-        Institution = "Cape Peninsula University of Technology",
-        IsCompleted = true,
-	YearCompleted = 2020
-      },
-    }
-  };
+  Qualifications = new List<Qualification>{
+    new Qualification {
+      Title = "National Diploma: Electrical Engineering",
+      Institution = "Cape Peninsula University of Technology",
+      IsCompleted = true,
+      YearCompleted = 2020
+    },
+  }
+};
   
 public class TertiaryEducation {
-	public IList<Qualification> Qualifications {get; set;}
+  public IList<Qualification> Qualifications {get; set;}
 }
 
 public class Qualification {
-	public string Title {get; set;}
-	public string Institution {get; set;}
-	public bool IsCompleted {get; set;}
-	public int? YearCompleted {get; set;}
+  public string Title {get; set;}
+  public string Institution {get; set;}
+  public bool IsCompleted {get; set;}
+  public int? YearCompleted {get; set;}
 }
 ```
