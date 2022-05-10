@@ -28,11 +28,11 @@
 
 ### Background :man_technologist: :mag:
 
-#### Tech Stack
+#### Tech Stacks
 
 > - Frontend: React.js, Angular :rocket:
-> - Styling Languages: CSS, SCSS :crystal_ball: :sewing_needle:
-> - Backend: .NET Core & .NET Framework :globe_with_meridians:
+> - Styling: CSS, SCSS :crystal_ball: :sewing_needle:
+> - Backend: C# / .NET :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
 > - Development Platform: Windows :computer:
 > - Other: Docker :whale:
