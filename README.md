@@ -10,7 +10,7 @@
   const profile = {
     name : 'Dieter',
     surname : 'Lötz',
-    age : 23 💫,
+    age : 24 💫,
     location : 'Cape Town, South Africa 📌',
     likes : [
       'music 🎧',
