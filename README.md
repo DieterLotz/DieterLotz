@@ -1,4 +1,4 @@
-# Dieter Lötz :boom:
+# Profile
 
 <div align="center">
   <img src="./assets/signals.gif" align="centre" width="50%" height="50%"/>
@@ -40,16 +40,28 @@
 #### Education :open_book:
 
 ```cs
- var tertiaryEducation = new TertiaryEducation {
-  Qualifications = new List<Qualification>{
+
+public static void Main(args string[]) {
+
+ var qualifications = new List<Qualification> [
+    new Qualification {
+      Title = "AWS Developer Associate Certificate",
+      Institution = "Amazon Web Services",
+      IsCompleted = false,
+    },
     new Qualification {
       Title = "National Diploma: Electrical Engineering",
       Institution = "Cape Peninsula University of Technology",
       IsCompleted = true,
       YearCompleted = 2020
-    },
+    }
+  ];
+
+ var tertiaryEducation = new TertiaryEducation {
+  Qualifications = qualifications
   }
 };
+}
   
 public class TertiaryEducation {
   public IList<Qualification> Qualifications {get; set;}
