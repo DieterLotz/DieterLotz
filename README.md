@@ -41,9 +41,10 @@
 
 ```cs
 
-public static void Main(args string[]) {
+public static void Main(string[] args) {
 
- var qualifications = new List<Qualification> [
+ var tertiaryEducation = new TertiaryEducation {
+   Qualifications = new List<Qualification> [
     new Qualification {
       Title = "AWS Developer Associate Certificate",
       Institution = "Amazon Web Services",
@@ -56,11 +57,9 @@ public static void Main(args string[]) {
       YearCompleted = 2020
     }
   ];
+ };
 
- var tertiaryEducation = new TertiaryEducation {
-  Qualifications = qualifications
-  }
-};
+ Console.ReadLine();
 }
   
 public class TertiaryEducation {
