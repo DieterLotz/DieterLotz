@@ -35,7 +35,7 @@
 > - Backend: C# / .NET :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
 > - Development Platform: Windows :computer:
-> - Other: Docker :whale:
+> - Other: Docker :whale:, CI/CD pipelines, Microservices 
 
 #### Education :open_book:
 
