@@ -31,11 +31,10 @@
 #### Tech Stacks
 
 > - Frontend: React.js, Angular :rocket:
-> - Styling: CSS, SCSS :crystal_ball: :sewing_needle:
 > - Backend: C# / .NET :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
 > - Development Platform: Windows :computer:
-> - Other: Docker :whale:, CI/CD pipelines, Microservices 
+> - Other: Docker :whale:, CI/CD pipelines 🧪, Microservices ➗
 
 #### Education :open_book:
 
