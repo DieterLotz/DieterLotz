@@ -21,7 +21,7 @@
       'space exploration 🌍📡'
     ],
     dislikes : [
-      '💩 code'
+      '🐑🐑🐑 code'
     ]    
   };
 ```
@@ -30,7 +30,8 @@
 
 #### Tech Stacks
 
-> - Frontend: React.js, Angular :rocket:
+> - Frontend Framworks: Angular, Angular.js & React.js :rocket:
+> - Frontend Languages: HTMl5, CSS/SCSS, JavaScript, Typescript 📜
 > - Backend: C# / .NET :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
 > - Development Platform: Windows :computer:
