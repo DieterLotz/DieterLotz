@@ -30,7 +30,7 @@
 
 #### Tech Stacks
 
-> - Frontend Framworks: Angular, Angular.js & React.js :rocket:
+> - Frontend Frameworks: Angular, Angular.js & React.js :rocket:
 > - Frontend Languages: HTML5, CSS/SCSS, JavaScript, TypeScript 📜
 > - Backend: C# / .NET :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
