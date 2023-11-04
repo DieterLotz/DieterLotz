@@ -10,7 +10,7 @@
   const profile = {
     name : 'Dieter',
     surname : 'Lötz',
-    age : 24 💫,
+    age : 25 💫,
     location : 'Cape Town, South Africa 📌',
     likes : [
       'music 🎧',
@@ -41,30 +41,29 @@
 
 ```cs
 
-public static void Main(string[] args) {
+public static void Main(string[] args)
+{
+  var tertiaryEducation = new TertiaryEducation
+  {
+      Qualifications = new List<Qualification>()
+      [
+        new Qualification(Title: "National Diploma: Electrical Engineering", Institution: "Cape Peninsula University of Technology", IsCompleted: true)
+        {
+          YearCompleted = 2020
+        }
+      ];
+   };
 
- var tertiaryEducation = new TertiaryEducation {
-   Qualifications = new List<Qualification> [
-    new Qualification {
-      Title = "National Diploma: Electrical Engineering",
-      Institution = "Cape Peninsula University of Technology",
-      IsCompleted = true,
-      YearCompleted = 2020
-    }
-  ];
- };
-
- Console.ReadLine();
+  Console.ReadLine();
 }
   
-public class TertiaryEducation {
-  public IList<Qualification> Qualifications {get; set;}
+public class TertiaryEducation
+{
+  public IList<Qualification> Qualifications { get; set; }
 }
 
-public class Qualification {
-  public string Title {get; set;}
-  public string Institution {get; set;}
-  public bool IsCompleted {get; set;}
-  public int? YearCompleted {get; set;}
+public sealed record Qualification(string Title, string Institution, bool IsCompleted)
+{
+  public int? YearCompleted { get; set; }
 }
 ```
