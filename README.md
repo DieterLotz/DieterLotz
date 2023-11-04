@@ -52,7 +52,7 @@ public static void Main(string[] args)
           Institution: "Cape Peninsula University of Technology",
           Completed: true)
         {
-          YearCompleted = 2020
+          YearOfCompletion = 2020
         }
       ];
    };
@@ -67,6 +67,6 @@ public class TertiaryEducation
 
 public sealed record Qualification(string Title, string Institution, bool Completed)
 {
-  public int? YearCompleted { get; set; }
+  public int? YearOfCompletion { get; set; }
 }
 ```
