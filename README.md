@@ -47,7 +47,10 @@ public static void Main(string[] args)
   {
       Qualifications = new List<Qualification>()
       [
-        new Qualification(Title: "National Diploma: Electrical Engineering", Institution: "Cape Peninsula University of Technology", IsCompleted: true)
+        new Qualification(
+          Title: "National Diploma: Electrical Engineering",
+          Institution: "Cape Peninsula University of Technology",
+          IsCompleted: true)
         {
           YearCompleted = 2020
         }
