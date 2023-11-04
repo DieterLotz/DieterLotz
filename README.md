@@ -50,7 +50,7 @@ public static void Main(string[] args)
         new Qualification(
           Title: "National Diploma: Electrical Engineering",
           Institution: "Cape Peninsula University of Technology",
-          IsCompleted: true)
+          Completed: true)
         {
           YearCompleted = 2020
         }
@@ -65,7 +65,7 @@ public class TertiaryEducation
   public IList<Qualification> Qualifications { get; set; }
 }
 
-public sealed record Qualification(string Title, string Institution, bool IsCompleted)
+public sealed record Qualification(string Title, string Institution, bool Completed)
 {
   public int? YearCompleted { get; set; }
 }
