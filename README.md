@@ -46,11 +46,6 @@ public static void Main(string[] args) {
  var tertiaryEducation = new TertiaryEducation {
    Qualifications = new List<Qualification> [
     new Qualification {
-      Title = "AWS Developer Associate Certificate",
-      Institution = "Amazon Web Services",
-      IsCompleted = false,
-    },
-    new Qualification {
       Title = "National Diploma: Electrical Engineering",
       Institution = "Cape Peninsula University of Technology",
       IsCompleted = true,
