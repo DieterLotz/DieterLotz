@@ -10,7 +10,7 @@
   const profile = {
     name : 'Dieter',
     surname : 'Lötz',
-    age : 25 💫,
+    age : 26 💫,
     location : 'Cape Town, South Africa 📌',
     likes : [
       'music 🎧',
@@ -30,11 +30,11 @@
 
 #### Tech Stacks
 
-> - Frontend Frameworks: Angular, Angular.js & React.js :rocket:
+> - Frontend Frameworks: Angular, React.js :rocket:
 > - Frontend Languages: HTML5, CSS/SCSS, JavaScript, TypeScript 📜
 > - Backend: C# / .NET :globe_with_meridians:
 > - Databases: Microsoft SQL Server, Postgres SQL :elephant:
-> - Development Platform: Windows :computer:
+> - Development Platform: Windows/MacOs :computer:
 > - Other: Docker :whale:, CI/CD pipelines 🧪, Microservices ➗
 
 #### Education :open_book:
